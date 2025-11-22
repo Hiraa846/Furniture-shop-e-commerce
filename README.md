@@ -60,6 +60,40 @@ lib/
 │
 ├── main.dart
 └── product.dart
+# FurniShop — Week 2 
+
+## Current Progress (Week 2)
+- Core flow working: Browse products → View details → Add to cart → View cart & checkout (demo).
+- Navigation: Home, Product Details, Cart implemented using Navigator.push.
+- UI: Basic layout with Scaffold, AppBar, ListView, TextField (search), FloatingActionButton and icons.
+- Data: In-memory only (resets on app restart).
+- Demo ready for lab: will show add-to-cart flow and cart operations without crash.
+
+# Navigation Added  
+- App now has **3 screens**:  
+  **Home → Product Details → Cart**
+- Navigation implemented using `Navigator.push()`  
+- UI built with:
+  - `Scaffold`
+  - `AppBar`
+  - `ListView`
+  - `Column` / `Row`
+  - `TextField` (Search)
+  - `FloatingActionButton`
+  - `ElevatedButton`
+  - Icons (`Icons.search`, `Icons.shopping_cart`, etc.)
+
+###  UI Improvements  
+- Clean and simple layout for lab demo  
+- Fun AppBar title: **“FurniShop — Buy Smart 🪑”**  
+- Product images & clean cards  
+- Basic search bar added
+
+
+###  Data Handling (Temporary)  
+- App uses **in-memory list only**  
+- Data resets on restart (allowed for Week 2)
+
 
 
 
